@@ -1,0 +1,39 @@
+# --- Editor / temp files ---
+*~
+*.swp
+*.swo
+*.tmp
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
+nicad_logs/
+
+# --- NiCad analysis outputs (generated under systems/) ---
+# Result directories
+systems/*_*-clones*/
+systems/*_*-blind-clones*/
+systems/*_*-crossclones*/
+systems/*_*-cross-clones*/
+systems/*_*-clones
+systems/*_*-blind-clones
+systems/*_*-crossclones
+systems/*_*-cross-clones
+
+# Result files (XML/HTML reports, run outputs)
+systems/**/*.xml
+systems/**/*.html
+systems/*.xml
+systems/*.html
+systems/*.log
+
+# --- Conda / Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Optional: big TXL artifacts (recommended to keep repo small) ---
+20473-txl10.8b.linux64.tar.gz
+txl10.8b.linux64/
